@@ -34,9 +34,11 @@ The design phase of my developer portfolio focused on creating a clean, accessib
 DEVELOPMENT PHASE
 
 1.Tech Stack
+
 I used is Html5, CSS3 and Git and GitHub for Code track changes and also manage different versions of my project
 
 2.Project Structure
+
 /Myportfolio-project
 │
 ├── index.html
@@ -47,10 +49,12 @@ I used is Html5, CSS3 and Git and GitHub for Code track changes and also manage 
 └── README.md
 
 3. Development Strategy
+   
 I adopted a desktop-first approach, designing and building the layout for larger screens first, then adapting it to smaller devices .Development was done incrementally whereby i started with static HTML structure, followed by section-by-section CSS styling.which is characteristic of iterative development.
 This allows for continuous testing  making it easier to catch and fix issues early. I kept the structure semantic and accessible to ensure good SEO and usability.
    
 4.Version Control Workflow
+
 Initialized with git init
 Regular commits with meaningful messages
 Pushed to GitHub for backup and sharing.
