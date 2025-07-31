@@ -57,4 +57,4 @@ This allows for continuous testing  making it easier to catch and fix issues ear
 
 Initialized with git init
 Regular commits with meaningful messages
-Pushed to GitHub for backup and sharing.
+I updated my Git history to use my GitHub noreply email for privacy, and successfully pushed everything to my GitHub repository for backup and sharing.
