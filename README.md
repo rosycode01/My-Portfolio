@@ -57,4 +57,8 @@ This allows for continuous testing  making it easier to catch and fix issues ear
 
 Initialized with git init
 Regular commits with meaningful messages
+I successfully fixed your Git identity using Name and Email
+I  rewrote all old commits using git filter-branch to change incorrect commit author/committer details.
+Git confirmed this with:
+Ref 'refs/heads/main' was rewritten
 I updated my Git history to use my GitHub noreply email for privacy, and successfully pushed everything to my GitHub repository for backup and sharing.
