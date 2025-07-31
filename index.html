@@ -18,6 +18,291 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
+    <!--This accessibility section is for the deafand blind and will be well development later to make the buttons more interactive.
+This allows for tech inclusivity for all-->
+    <div class="accessibility-bar">
+      <button id="deaf-mode" aria-label="Toggle Deaf Accessibility Mode">
+        👂 Deaf Mode
+      </button>
+      <button id="blind-mode" aria-label="Toggle Blind Accessibility Mode">
+        👁️ Blind Mode
+      </button>
+    </div>
+    <header class="header">
+      <!--Profile photo section wit div containers for easy styling
+      -->
+      <div class="profile-container">
+        <div class="profile-photo-wrapper">
+          <img
+            src="profile-photo.jpg"
+            alt="Professional profile photo"
+            class="profile-photo"
+          />
+          <!--For visual effects-->
+          <div class="photo-overlay"></div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <!--navigation links to different sections of page-->
+        <ul>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#interests" class="nav-link">Interests</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="section fade-in">
+        <!--Explains who i am -->
+        <h2>About Me</h2>
+        <div class="card slide-up">
+          <p>
+            I'm a passionate software developer specializing in React, Shadcn,
+            Vite, and modern web technologies. With expertise in HTML, CSS,
+            JavaScript, and Java, I build accessible, performant web
+            applications that push the boundaries of user experience.
+          </p>
+          <p>
+            My drive comes from a deep belief in tech inclusivity - creating
+            solutions that empower everyone, regardless of ability. I'm
+            particularly excited about AI's potential to make technology more
+            accessible to all.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section fade-in">
+        <!--these are the skill set am proficient in-->
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+          <!--Skills displayed in pie chart-->
+          <div class="card pie-chart-container slide-up">
+            <div class="pie-chart">
+              <div
+                class="pie-segment"
+                style="--start: 0; --value: 0.3; --color: #4a6fa5"
+                data-skill="JavaScript"
+              ></div>
+              <div
+                class="pie-segment"
+                style="--start: 0.3; --value: 0.25; --color: #6d5b93"
+                data-skill="React"
+              ></div>
+              <div
+                class="pie-segment"
+                style="--start: 0.55; --value: 0.2; --color: #3a7ca5"
+                data-skill="Java"
+              ></div>
+              <div
+                class="pie-segment"
+                style="--start: 0.75; --value: 0.15; --color: #7b8cde"
+                data-skill="HTML/CSS"
+              ></div>
+              <div
+                class="pie-segment"
+                style="--start: 0.9; --value: 0.1; --color: #4d648d"
+                data-skill="AI/ML"
+              ></div>
+              <div class="pie-center"></div>
+            </div>
+            <div class="pie-legend">
+              <!-- visually matches each color in the pie chart to the corresponding skill name.-->
+              <div class="legend-item">
+                <span
+                  class="legend-color"
+                  style="background-color: #4a6fa5"
+                ></span
+                >JavaScript
+              </div>
+              <div class="legend-item">
+                <span
+                  class="legend-color"
+                  style="background-color: #6d5b93"
+                ></span
+                >React
+              </div>
+              <div class="legend-item">
+                <span
+                  class="legend-color"
+                  style="background-color: #3a7ca5"
+                ></span
+                >Java
+              </div>
+              <div class="legend-item">
+                <span
+                  class="legend-color"
+                  style="background-color: #7b8cde"
+                ></span
+                >HTML/CSS
+              </div>
+              <div class="legend-item">
+                <span
+                  class="legend-color"
+                  style="background-color: #4d648d"
+                ></span
+                >AI/ML
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section fade-in">
+        <!--Education section-->
+        <h2>Education and Background</h2>
+        <div class="timeline slide-up">
+          <div class="timeline-item">
+            <div class="timeline-date">July 2025 - Present</div>
+            <div class="timeline-content">
+              <h3>Advanced Software development</h3>
+              <p>Power Learn Project</p>
+              <p>
+                Specializing in AI and accessible Software technologies. Ongoing
+                research in inclusive design patterns.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2021- 2025</div>
+            <div class="timeline-content">
+              <h3>Bachelor of Science in Computer Science</h3>
+              <p>
+                University of Eldoret. Focus on software Development,Artificial
+                Intelligence,Networking and Human-computer interaction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section fade-in">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card slide-up">
+            <h3>SEMASIGN AI-Powered Sign Language Translator</h3>
+            <p>
+              Real-time AI translation between Kenya Sign Language and spoken
+              languages. Fostering inclusion and digital accessibility for the
+              Deaf and Hard-of-Hearing community.
+            </p>
+            <p>
+              <strong>Tech:</strong> React, Supabase, Netlify, HTML,Tailwind
+              CSS, AI models
+            </p>
+            <a href="#" class="project-link" aria-label="View SEMASIGN Project"
+              >View Project →</a
+            >
+          </div>
+          <div class="project-card slide-up">
+            <h3>Golden Farm Layers Management System</h3>
+            <p>
+              A smart farm management system for layer poultry farmers with
+              features like egg tracking, feed scheduling, breed comparison, and
+              financial monitoring.
+            </p>
+            <p>
+              <strong>Tech:</strong> React, Supabase, Netlify, HTML, Tailwind
+              CSS, vite
+            </p>
+            <a
+              href="#"
+              class="project-link"
+              aria-label="View Golden Farm Layers Management System project"
+              >View Project →</a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="interests" class="section fade-in">
+        <h2>Professional Interests</h2>
+        <div class="interests-grid slide-up">
+          <div class="interest-card">
+            <h3>AI for Accessibility</h3>
+            <p>
+              Exploring how artificial intelligence can break down barriers for
+              people with disabilities.
+            </p>
+          </div>
+          <div class="interest-card">
+            <h3>Inclusive Design</h3>
+            <p>
+              Creating technology that works for everyone, regardless of ability
+              or background.
+            </p>
+          </div>
+          <div class="interest-card">
+            <h3>Developer Education</h3>
+            <p>
+              Teaching accessible coding practices to the next generation of
+              developers.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section fade-in">
+        <h2>Get In Touch</h2>
+        <div class="contact-card slide-up">
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                aria-required="true"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                aria-required="true"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                aria-required="true"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="social-links">
+        <a href="#" class="social-link" aria-label="LinkedIn profile"
+          >LinkedIn</a
+        >
+        <a
+          href="https://github.com/"
+          class="social-link"
+          aria-label="GitHub profile"
+          >GitHub</a
+        >
+        <a href="#" class="social-link" aria-label="Twitter profile">Twitter</a>
+      </div>
+      <p class="copyright">
+        &copy; <span id="year"></span> Rose. Copyright All rights reserved.
+      </p>
+    </footer>
   </body>
 </html>
