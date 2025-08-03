@@ -36,30 +36,50 @@ This allows for tech inclusivity for all-->
           <li><a href="#education" class="nav-link">Education</a></li>
           <li><a href="#projects" class="nav-link">Projects</a></li>
           <li><a href="#interests" class="nav-link">Interests</a></li>
-          <li><a href="blog.html" class="nav-link">Blog</a></li>
+         
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
       </nav>
+
     </div>
     <header class="header">
-      <!--Profile photo section wit div containers for easy styling
-      -->
-      <div class="profile-container">
-        <div class="profile-photo-wrapper">
-          <img
-            src="profile.jpeg"
-            alt="Professional profile photo"
-            class="profile-photo"
-          />
-          <!--For visual effects-->
-          <div class="photo-overlay"></div>
-        </div>
-      </div>
-      <div class="introduction">
-        <h1>Rose Wanjiru || Software Developer</h1>
-      </div>
+    
+  <div class="profile-container">
+    <div class="profile-photo-wrapper">
+      <img
+        src="profile.jpeg"
+        alt="Professional profile photo"
+        class="profile-photo"
+      />
+      <div class="photo-overlay"></div>
+    </div>
+
+    <div class="profile-text">
+      <h1>
+        Rose Wanjiru <br />
+        Software Developer | AI Enthusiast | Tech Inclusivity
+      </h1>
+
+      <p class="contact-info">
+        📞 <a href="tel:+254 723 905 619">Call me</a><br />
+        📧 <a href="mailto:rosemuragu4@gmail.com">Email me</a>
+      </p>
+    </div>
+
+  </div>
+   
+</header>
+
+        <!-- Video background -->
+        <video autoplay muted loop playsinline class="header-video">
+          <source src="intro.mp4" type="video/mp4" />
+          Your browser does not support HTML5 video.
+        </video>
+
+        
     </header>
 
+   
     <main>
       <div class="bubble-container">
         <div class="bubble"></div>
@@ -191,42 +211,74 @@ This allows for tech inclusivity for all-->
         </div>
       </section>
 
-      <section id="education" class="section fade-in">
-        <div class="zigzag-item">Education</div>
-        <!--My education journey-->
 
-        <h2>Education and Background</h2>
-        <div class="timeline slide-up">
-          <div class="timeline-item">
-            <div class="timeline-date">July 2025 - Present</div>
-            <div class="timeline-content">
-              <h3>Advanced Software development</h3>
-              <p>Power Learn Project</p>
-              <p>
-                Specializing in AI and accessible Software technologies. Ongoing
-                research in inclusive design patterns.
-              </p>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-date">2021- 2025</div>
-            <div class="timeline-content">
-              <h3>Bachelor of Science in Computer Science</h3>
-              <p>
-                University of Eldoret. Focus on software Development,Artificial
-                Intelligence,Networking and Human-computer interaction.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
+      <section id="education" class="section fade-in">
+  <div class="zigzag-item">Education</div>
+  
+  <h2>Education and Background</h2>
+  
+  <div class="timeline slide-up">
+    <div class="timeline-item">
+      <div class="timeline-date">2021 - Present</div>
+      <div class="timeline-content">
+        <h3>Software Development</h3>
+        <p>Power Learn Project</p>
+        <p>Learnt software engineering,Databases and specialised in AI</p>
+      </div>
+    <div class="timeline-item">
+      <div class="timeline-date">2021 - Present</div>
+      <div class="timeline-content">
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p>University of Eldoret, Eldoret</p>
+        <p>Focused on software engineering, AI, networking, and cloud computing. Built multiple real-world web applications using HTML, CSS, JavaScript, Java, and React.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">2017 - 2021</div>
+      <div class="timeline-content">
+        <h3>Kenya Certificate of Secondary Education (KCSE)</h3>
+        <p>Nakuru  Girls High School</p>
+        <p>Graduated with strong performance in Mathematics, Physics, and Computer Studies.</p>
+      </div>
+    </div>
+    </div>
+
+  </div>
+  <p>Here is my CV </p>
+    <div style="margin-top: 10px; text-align: left;left: 10px;">
+      <a 
+        href="MyCv.pdf" 
+        target="_blank" 
+        class="btn"
+        download
+      >
+        📄 Download CV
+      </a>
+    </div>
+  </div>
+
+</section>
 
       <section id="projects" class="section fade-in">
         <div class="zigzag-item">Projects</div>
-        <!--Showcases the projects i have handled to gain expetise-->
+        <!--Showcases the projects I have handled to gain expertise-->
         <h2>Featured Projects</h2>
         <div class="projects-grid">
+          <!-- SEMASIGN Project -->
           <div class="project-card slide-up">
+            <a
+              href="https://your-semasign-project-link.com"
+              target="_blank"
+              aria-label="View SEMASIGN Project"
+            >
+              <img
+                src="sema sign.jpg"
+                alt="SEMASIGN Project Preview"
+                class="project-thumbnail"
+              />
+            </a>
             <h3>SEMASIGN AI-Powered Sign Language Translator</h3>
             <p>
               Real-time AI translation between Kenya Sign Language and spoken
@@ -235,14 +287,38 @@ This allows for tech inclusivity for all-->
             </p>
             <p>ONGOING</p>
             <p>
-              <strong>Tech:</strong> React, Supabase, Netlify, HTML,Tailwind
-              CSS, AI models
+              <a
+                href="http://192.168.1.172:8080/"
+                target="_blank"
+                class="tech-link"
+              >
+                <strong>Tech:</strong> React, Supabase, Netlify, HTML, Tailwind
+                CSS, AI models
+              </a>
             </p>
-            <a href="#" class="project-link" aria-label="View SEMASIGN Project"
-              >View Project →</a
+            <a
+              href="http://192.168.1.172:8080/"
+              class="project-link"
+              target="_blank"
+              aria-label="View SEMASIGN Project"
             >
+              Ongoing→
+            </a>
           </div>
+
+          <!-- Golden Farm Project -->
           <div class="project-card slide-up">
+            <a
+              href="https://goldensavvy.netlify.app/"
+              target="_blank"
+              aria-label="View Golden Farm Project"
+            >
+              <img
+                src="goldenFarm.png"
+                alt="Golden Farm Project Preview"
+                class="project-thumbnail"
+              />
+            </a>
             <h3>Golden Farm Layers Management System</h3>
             <p>
               A smart farm management system for layer poultry farmers with
@@ -250,18 +326,27 @@ This allows for tech inclusivity for all-->
               financial monitoring.
             </p>
             <p>
-              <strong>Tech:</strong> React, Supabase, Netlify, HTML, Tailwind
-              CSS, vite
+              <a
+                href="https://goldensavvy.netlify.app/"
+                target="_blank"
+                class="tech-link"
+              >
+                <strong>Tech:</strong> React, Supabase, Netlify, HTML, Tailwind
+                CSS, Vite
+              </a>
             </p>
             <a
-              href="#"
+              href="https://goldensavvy.netlify.app/"
               class="project-link"
-              aria-label="View Golden Farm Layers Management System project"
-              >View Project →</a
+              target="_blank"
+              aria-label="View Golden Farm Project"
             >
+              View Project →
+            </a>
           </div>
         </div>
       </section>
+
       <section id="interests" class="section fade-in">
         <div class="zigzag-item">Interests</div>
         <!--My interests in tech-->
@@ -292,49 +377,16 @@ This allows for tech inclusivity for all-->
       </section>
 
       <section id="contact" class="section fade-in">
-        <div class="zigzag-item">Contact</div>
+      
         <h2>Get In Touch</h2>
-        <div class="contact-card slide-up">
-          <form class="contact-form">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                aria-required="true"
-              />
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                aria-required="true"
-              />
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="5"
-                required
-                aria-required="true"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn">Send Message</button>
-          </form>
-        </div>
-      </section>
-    </main>
+       
+             <p class="contact-info">
 
-    <footer class="footer">
-      <div class="social-links">
-        <a href="#" class="social-link" aria-label="LinkedIn profile"
+        📞 Tel.No <a href="tel:+254 723 905 619">+254723905619</a><br />
+        📧 Email <a href="mailto:rosemuragu4@gmail.com">rosemuragu4@gmail.com</a>
+      </p>
+       <div class="social-links">
+        <a href="https://www.linkedin.com/in/rosycode01/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BynYVvkWlSeWnuYMfPqa6hg%3D%3D" class="social-link" aria-label="LinkedIn profile"
           >LinkedIn</a
         >
         <a
@@ -343,10 +395,13 @@ This allows for tech inclusivity for all-->
           aria-label="GitHub profile"
           >GitHub</a
         >
-        <a href="#" class="social-link" aria-label="Instagram profile"
-          >Instagram</a
-        >
+            
       </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+     
       <p class="copyright">
         &copy; <span id="year"></span> Rose. Copyright All rights reserved.
       </p>
