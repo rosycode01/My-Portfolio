@@ -62,3 +62,8 @@ I  rewrote all old commits using git filter-branch to change incorrect commit co
 Git confirmed this with:
 Ref 'refs/heads/main' was rewritten.
 I updated my Git history to use my GitHub noreply email for privacy, and successfully pushed everything to my GitHub repository for backup and sharing.
+
+
+DEPLOYMENT 
+
+The project was successfully deployed on Netlify and is live
