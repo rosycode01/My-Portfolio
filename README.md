@@ -21,7 +21,7 @@ Currently in development.
 - Git & GitHub  
 
 ## Live Link
-Coming soon.
+https://rosecode01-portfolio.netlify.app/
 
 ## About Me
 Software developer focused on accessible, AI-driven solutions for real-world impact.
